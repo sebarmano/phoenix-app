@@ -1,5 +1,5 @@
 defmodule Rumbl.WatchController do
-  user Rumbl.Web, :controller
+  use Rumbl.Web, :controller
   alias Rumbl.Video
 
   def show(conn, %{"id" => id}) do
